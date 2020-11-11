@@ -8,4 +8,4 @@ and also - through `Whatsapp`
 * [Day 01 - JavaScript and Typescript](https://github.com/kobi2294/Course-112020-Public-Angular/wiki/Day-01---Javascript-and-Typescript)
 
 # Extras
-- [Recommended VS Code Extensions](https://github.com/kobi2294/Course-032020-Public-Angular/wiki/Recommended-Extensions)
+- [Recommended VS Code Extensions](https://github.com/kobi2294/Course-112020-Public-Angular/wiki/Recommended-Extensions)
