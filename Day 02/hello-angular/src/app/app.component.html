@@ -1,2 +1,7 @@
-<h1>Hello Angular</h1>
-<h2>This is our first angular app</h2>
+<input #searchBox type="text" [value]="keyword" [disabled]="isBusy" (input)="changeKeyword(searchBox.value)">
+<button (click)="search()" [disabled]="isBusy">Go</button>
+<img *ngIf="isBusy" src="https://i.pinimg.com/originals/49/e9/d6/49e9d662d2f99e8d945c8b21bd2cde85.gif">
+
+<ul>
+    <li *ngFor="let result of results">{{result}}</li>
+</ul>
