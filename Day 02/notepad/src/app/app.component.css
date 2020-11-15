@@ -1,0 +1,49 @@
+:host {
+    display: grid;
+    grid-template-rows: 300px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+div {
+    border: 1px solid lightgray;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.colors-area {
+}
+
+.fonts-area {
+}
+
+.sizes-area {
+}
+
+.text-area {
+    grid-column: 1/-1;
+
+}
+
+textarea {
+    border: transparent;
+    outline: transparent;
+    margin: 10px;
+}
+
+
+li {
+    list-style: none;
+    border: 1px solid lightgray;
+    margin: 4px;
+    border-radius: 6px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+li:hover {
+    background: rgba(211, 211, 211, 0.5);
+}
+
+li.nivchar {
+    background: rgba(135, 206, 250, 0.5);
+}
