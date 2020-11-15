@@ -15,6 +15,7 @@ and also - through `Whatsapp`
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [NodeJS](https://nodejs.org/en/)
 * [Git](https://git-scm.com/)
+* [Angular CLI](https://cli.angular.io/)
 
 # Extras
 - [Recommended VS Code Extensions](https://github.com/kobi2294/Course-112020-Public-Angular/wiki/Recommended-Extensions)
