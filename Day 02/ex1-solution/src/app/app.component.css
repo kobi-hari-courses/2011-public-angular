@@ -1,7 +1,43 @@
-.correct {
-    color: green;
+:host {
+    display: grid;
+    grid-template-rows: auto 1fr;
 }
 
-.wrong {
-    color: red;
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 100px;
+    font-size: 72px;
+    align-self: center;
+    cursor: pointer;
+}
+
+li:hover {
+    background: rgba(128, 128, 128, 0.15);
+}
+
+li.is-selected.is-correct {
+    background-color: rgba(144, 238, 144, 0.589);
+}
+
+li.is-selected.is-wrong {
+    background-color: rgba(238, 144, 144, 0.589);
+}
+
+li.was-answered {
+    opacity: 0.5;
+    cursor: default;
+    pointer-events: none;
 }

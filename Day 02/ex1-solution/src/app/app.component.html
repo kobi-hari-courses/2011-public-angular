@@ -1,11 +1,25 @@
 <h1>{{question}}</h1>
 
-<div *ngFor="let answer of possibleAnswers">
-  <button [disabled]="wasAnswered" (click)="selectAnswer(answer)">{{answer}}</button>
-</div> 
+<div class="answers">
+  <ul>
+    <li *ngFor="let answer of possibleAnswers"
+        (click)="selectAnswer(answer)"
+        [class.was-answered]="wasAnswered"
+        [class.is-correct]="isCorrect === true"
+        [class.is-wrong]="isCorrect === false"
+        [class.is-selected]="selectedAnswer === answer"
 
-<h2 class="correct" *ngIf="isCorrect === true">Correct</h2>
-<h2 class="wrong" *ngIf="isCorrect === false">Wrong</h2>
+    >{{answer}}</li>
+  </ul>
+  
+</div>
+
+<!-- <div *ngFor="let answer of possibleAnswers">
+  <button [disabled]="wasAnswered" (click)="selectAnswer(answer)">{{answer}}</button>
+</div>  -->
+
+<!-- <h2 class="correct" *ngIf="isCorrect === true">Correct</h2>
+<h2 class="wrong" *ngIf="isCorrect === false">Wrong</h2> -->
 
 
 
