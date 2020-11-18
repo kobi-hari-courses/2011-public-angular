@@ -10,6 +10,8 @@ and also - through `Whatsapp`
 
 # Exercises
 * [Exercises](https://github.com/kobi2294/Course-112020-Public-Angular/wiki/Exercises)
+* [Ex1 - Pop Quiz Exercise Description](https://www.dropbox.com/s/rkhx8ge3lj5um6t/Description.pptx?dl=0)
+* [Solution for Ex1 Video](https://www.dropbox.com/sh/u85eb7n3tyygti7/AACnAOuLR4FlaGbr5wJJElmLa?dl=0)
 
 # Tools to install
 * [Visual Studio Code](https://code.visualstudio.com/)
