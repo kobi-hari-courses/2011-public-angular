@@ -1,0 +1,39 @@
+<div class="title-area">
+    <app-title caption="welcome to notepad" captionColor="magenta"></app-title>
+    <app-title caption="Version 1.3.2" [captionColor]="selectedColor"></app-title>
+</div>
+
+<div class="colors-area">
+    <app-string-selector
+        [options]="colors"
+        [selectedOption]="selectedColor"
+        (optionSelected)="selectColor($event)"
+    ></app-string-selector>
+</div>
+
+<div class="fonts-area">
+    <app-string-selector
+        [options]="fonts"
+        [selectedOption]="selectedFont"
+        (optionSelected)="selectFont($event)"
+    >
+    </app-string-selector>    
+</div>
+
+<div class="sizes-area">
+    <app-string-selector
+        [options]="sizes"
+        [selectedOption]="selectedSize"
+        (optionSelected)="selectSize($event)"
+    >
+    </app-string-selector>
+
+</div>
+
+<div class="text-area">
+    <textarea
+        [style.color]="selectedColor"
+        [style.font-family]="selectedFont"
+        [style.font-size]="selectedSize"
+    ></textarea>
+</div>

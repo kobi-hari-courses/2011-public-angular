@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let item of options" 
+    [class.nivchar]="item === selectedOption" 
+    (click)="selectOption(item)">{{item}}</li>
+</ul>

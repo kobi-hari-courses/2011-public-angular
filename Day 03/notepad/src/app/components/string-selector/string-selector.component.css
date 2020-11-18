@@ -1,0 +1,17 @@
+
+li {
+    list-style: none;
+    border: 1px solid lightgray;
+    margin: 4px;
+    border-radius: 6px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+li:hover {
+    background: rgba(211, 211, 211, 0.5);
+}
+
+li.nivchar {
+    background: rgba(135, 206, 250, 0.5);
+}

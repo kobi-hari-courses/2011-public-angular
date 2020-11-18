@@ -1,0 +1,38 @@
+:host {
+    display: grid;
+    grid-template-rows: auto 300px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+div {
+    border: 1px solid lightgray;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.title-area {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colors-area {
+}
+
+.fonts-area {
+}
+
+.sizes-area {
+}
+
+.text-area {
+    grid-column: 1/-1;
+
+}
+
+textarea {
+    border: transparent;
+    outline: transparent;
+    margin: 10px;
+}
