@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
 
 
   onInput(value: string) {
-    this.search$.next(value);
+    this.search$.next(value); 
   }
 
   ngOnInit(): void {
