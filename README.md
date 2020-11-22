@@ -20,6 +20,7 @@ and also - through `Whatsapp`
 # Homework
 * [Ex1 - Pop Quiz Exercise Description](https://www.dropbox.com/s/rkhx8ge3lj5um6t/Description.pptx?dl=0)
 * [Solution for Ex1 Video](https://www.dropbox.com/s/8ybqibl7geul9bm/Solution.mp4?dl=0)
+* [Ex2 - Reactive Pop quiz Description](https://www.dropbox.com/s/n9pawcvycxv03sx/Description.pptx?dl=0)
 * [Solution for Ex2 Video](https://www.dropbox.com/s/n9502wwpvlmrgbr/reactive%20pop%20quiz%20solution.mp4?dl=0)
 
 # Tools to install
