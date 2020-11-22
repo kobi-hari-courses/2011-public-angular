@@ -7,6 +7,7 @@ and also - through `Whatsapp`
 # Daily Summaries
 * [Day 01 - JavaScript and Typescript](https://github.com/kobi2294/Course-112020-Public-Angular/wiki/Day-01---Javascript-and-Typescript)
 * [Day 02 - Introduction to Angular, Components](https://github.com/kobi2294/Course-112020-Public-Angular/wiki/Day-02-Introduction-to-Angular-and-Components)
+* [Day 03 - Components Output, Dependency Injection, Promises](https://github.com/kobi2294/Course-112020-Public-Angular/wiki/Day-03-DI-and-Promises)
 
 # Exercises
 * [Exercises](https://github.com/kobi2294/Course-112020-Public-Angular/wiki/Exercises)
