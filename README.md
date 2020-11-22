@@ -35,4 +35,7 @@ and also - through `Whatsapp`
 - [Learn CSS Flex by playing Flex Froggy](https://flexboxfroggy.com/)
 - [Deep Dive into CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Deep Dive into CSS Flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [RxJs](https://rxjs-dev.firebaseapp.com/)
+- [RxJS Marbles](https://rxmarbles.com/)
+- [RxJS Marbles Visualizer](https://rxviz.com/)
 
