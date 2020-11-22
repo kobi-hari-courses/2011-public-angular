@@ -1,2 +1,15 @@
 <h1>Fun with Observables</h1>
 <button (click)="go()">Go!</button>
+
+<hr>
+
+<input type="search" #searchBox (input)="onInput(searchBox.value)">
+<ul>
+    <li *ngFor="let item of (result$ | async)">{{item}}</li>
+</ul>
+
+<hr>
+<button (click)="toggleReader()" >Toggle Reader</button>
+<hr>
+<app-counter-writer></app-counter-writer>
+<app-counter-reader *ngIf="isShowingReader"></app-counter-reader>

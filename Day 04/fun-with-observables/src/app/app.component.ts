@@ -1,12 +1,40 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { BehaviorSubject, interval, Observable, Observer, Subject } from 'rxjs';
+import { debounceTime, map, mergeMap, switchMap, tap } from 'rxjs/operators';
+import { NameSearchService } from './services/name-search.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
+  search$ = new Subject<string>();
+  result$: Observable<string[]>;
+
+  constructor(private namesService: NameSearchService){}
+
+
+  onInput(value: string) {
+    this.search$.next(value);
+  }
+
+  ngOnInit(): void {
+    this.result$ = this.search$.pipe(
+      debounceTime(500),
+      switchMap(search => this.namesService.searchNames(search))
+    );
+  }
+
+
+
+  isShowingReader = true;
+
+  toggleReader() {
+    this.isShowingReader = !this.isShowingReader;
+  }
+
+
   createObserver(id: string): Observer<number> {
     console.log(`Creating observer: ${id}`);
 
