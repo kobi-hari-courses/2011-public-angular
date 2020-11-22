@@ -1,0 +1,12 @@
+{{title | reverse | uppercase }}
+<hr>
+{{now | date:'dd.MM.yy' }}
+
+
+<ul>
+    <li *ngFor="let color of colors|filter:'ee'">
+        {{color}}
+    </li>
+</ul>
+
+<button (click)="modifyArray()">Modify Array</button>
