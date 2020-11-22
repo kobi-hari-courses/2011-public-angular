@@ -11,9 +11,16 @@ and also - through `Whatsapp`
 * [Day 04 - RxJS, Http and Pipes](https://github.com/kobi2294/Course-112020-Public-Angular/wiki/Day-04-RxJS-Http-and-Pipes)
 
 # Exercises
-* [Exercises](https://github.com/kobi2294/Course-112020-Public-Angular/wiki/Exercises)
+* [Exercise 1 - Angular Binding](https://github.com/kobi2294/Course-112020-Public-Angular/wiki/Exercise-1---Angular-Binding)
+* [Exercise 2 - RxJS Stateful Services](https://github.com/kobi2294/Course-112020-Public-Angular/wiki/Exercise-2---RxJS-Stateful-services)
+
+# Extras in Videos
+* [Introduction to Reactive X](https://www.dropbox.com/s/05vsshf61oh5p1y/Reactive%20X.mp4?dl=0)
+
+# Homework
 * [Ex1 - Pop Quiz Exercise Description](https://www.dropbox.com/s/rkhx8ge3lj5um6t/Description.pptx?dl=0)
 * [Solution for Ex1 Video](https://www.dropbox.com/s/8ybqibl7geul9bm/Solution.mp4?dl=0)
+* [Solution for Ex2 Video](https://www.dropbox.com/s/n9502wwpvlmrgbr/reactive%20pop%20quiz%20solution.mp4?dl=0)
 
 # Tools to install
 * [Visual Studio Code](https://code.visualstudio.com/)
