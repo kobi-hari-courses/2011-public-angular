@@ -45,3 +45,8 @@ and also - through `Whatsapp`
 - [RxJS Marbles](https://rxmarbles.com/)
 - [RxJS Marbles Visualizer](https://rxviz.com/)
 
+# Books & Videos
+- [Rx.NET in action](https://www.amazon.com/Rx-NET-Action-examples-Tamir-Dresher/dp/1617293067/ref=sr_1_1?dchild=1&keywords=Rx.net&qid=1606317438&sr=8-1)
+- [Angular University](https://angular-university.io/)
+
+
