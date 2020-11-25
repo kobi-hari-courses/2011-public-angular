@@ -7,13 +7,14 @@ import { MovieDetailsComponent } from './components/movie-details/movie-details.
 import { MovieEditComponent } from './components/movie-edit/movie-edit.component';
 import { MoviesListComponent } from './components/movies-list/movies-list.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { AutheticationGuard } from './guards/authetication.guard';
 
 const routes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'}, 
   {path: 'home', component: HomeComponent }, 
   {path: 'movies', component: MoviesListComponent }, 
   {path: 'movies/:id', component: MovieDetailsComponent},
-  {path: 'movies/:id/edit', component: MovieEditComponent },
+  {path: 'movies/:id/edit', component: MovieEditComponent, canActivate: [AutheticationGuard] },
   {path: 'about', component: AboutComponent }, 
   {path: 'account', component: AccountComponent }, 
   {path: '**', component: NotFoundComponent }

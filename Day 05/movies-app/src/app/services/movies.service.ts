@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { resolve } from 'dns';
 import { ALL_MOVIES } from '../models/all-movies';
 import { Movie } from '../models/movie';
 
