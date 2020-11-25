@@ -1,0 +1,8 @@
+li {
+    background-color: var(--p50);
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: var(--p200);
+}
