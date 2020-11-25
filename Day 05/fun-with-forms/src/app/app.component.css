@@ -1,0 +1,23 @@
+input.ng-invalid.ng-touched {
+    border: 1px solid red;
+}
+
+input {
+    outline: transparent;
+    border: 1px solid gray;
+}
+
+input:focus {
+    border-radius: 10px;
+}
+
+label {
+    font-size: 10px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}

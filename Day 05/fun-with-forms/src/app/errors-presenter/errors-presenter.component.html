@@ -1,0 +1,13 @@
+<ng-container *ngIf="control">
+    <ng-container *ngIf="control.touched">
+        <ng-container *ngIf="control.errors as errors">
+            <div class="error-message" *ngIf="errors['required']">Required</div>
+            <div class="error-message" *ngIf="errors['startsWithA'] as err">Should start with A, actually starts with:
+                '{{err.startsWith}}'</div>
+            <div class="error-message" *ngIf="errors['email'] as err">Must have email format</div>
+            <div class="error-message" *ngIf="errors['min'] as err">Minimum value: {{err.min}}</div>
+            <div class="error-message" *ngIf="errors['max'] as err">Maximum value: {{err.max}}</div>
+            <div class="error-message" *ngIf="errors['minWords'] as err">words: ({{err.actualWords}} / {{err.requiredWords}})</div>
+        </ng-container>
+    </ng-container>
+</ng-container>

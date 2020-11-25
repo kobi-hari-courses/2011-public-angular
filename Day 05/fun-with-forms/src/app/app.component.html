@@ -1,1 +1,52 @@
-<input type="text">
+<div [formGroup]="form">
+
+  <div class="field">
+    <label>User Name</label>
+    <input type="text" formControlName="username">
+    <app-errors-presenter [control]="form.get('username')"></app-errors-presenter>
+  </div>
+  
+  <div class="field">
+    <label>Email</label>
+    <input type="text" formControlName="email">
+    <app-errors-presenter [control]="form.get('email')"></app-errors-presenter>
+  </div>
+  
+  <div class="field">
+    <label>Age</label>
+    <input type="number" formControlName="age">
+    <app-errors-presenter [control]="form.get('age')"></app-errors-presenter>
+  </div>
+
+  <div class="field">
+    <label>Description</label>
+    <textarea formControlName="description"></textarea>
+    <app-errors-presenter [control]="form.get('description')"></app-errors-presenter>
+  </div>
+
+  <ng-container formGroupName="address">
+    <div class="field">
+      <label>Street</label>
+      <input type="text" formControlName="street">
+      <app-errors-presenter [control]="form.get('address/street')"></app-errors-presenter>
+    </div>
+    <div class="field">
+      <label>City</label>
+      <input type="text" formControlName="city">
+      <app-errors-presenter [control]="form.get('address/city')"></app-errors-presenter>
+    </div>
+    
+  </ng-container>
+  
+</div>
+
+<button [disabled]="form.invalid">Submit</button>
+
+
+<hr>
+
+<pre>{{form.value | json}}</pre>
+
+<pre>{{form.get('username').errors | json}}</pre>
+<pre>{{form.get('email').errors | json}}</pre>
+<pre>{{form.get('age').errors | json}}</pre>

@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ErrorsPresenterComponent } from './errors-presenter/errors-presenter.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ErrorsPresenterComponent
   ],
   imports: [
     BrowserModule, 
