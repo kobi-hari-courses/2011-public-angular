@@ -9,6 +9,7 @@ and also - through `Whatsapp`
 * [Day 02 - Introduction to Angular, Components](https://github.com/kobi2294/Course-112020-Public-Angular/wiki/Day-02-Introduction-to-Angular-and-Components)
 * [Day 03 - Components Output, Dependency Injection, Promises](https://github.com/kobi2294/Course-112020-Public-Angular/wiki/Day-03-DI-and-Promises)
 * [Day 04 - RxJS, Http and Pipes](https://github.com/kobi2294/Course-112020-Public-Angular/wiki/Day-04-RxJS-Http-and-Pipes)
+* [Day 05 - Routing and Forms](https://github.com/kobi2294/Course-112020-Public-Angular/wiki/Day-05-Routing-and-Forms)
 
 # Exercises
 * [Exercise 1 - Angular Binding](https://github.com/kobi2294/Course-112020-Public-Angular/wiki/Exercise-1---Angular-Binding)
