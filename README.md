@@ -24,6 +24,11 @@ and also - through `Whatsapp`
 * [Ex2 - Reactive Pop quiz Description](https://www.dropbox.com/s/n9pawcvycxv03sx/Description.pptx?dl=0)
 * [Solution for Ex2 Video](https://www.dropbox.com/s/n9502wwpvlmrgbr/reactive%20pop%20quiz%20solution.mp4?dl=0)
 
+# Final Project
+* [Description](https://github.com/kobi2294/AngularSamples/blob/master/src/todo-app/README.md)
+* [Solution Code](https://github.com/kobi2294/AngularSamples/tree/master/src/todo-app)
+* [Solution Video](https://www.dropbox.com/s/caw87ap23y3b2ew/TodoApp.mp4?dl=0)
+
 # Tools to install
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [NodeJS](https://nodejs.org/en/)
