@@ -1,0 +1,22 @@
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+    margin: 4px;
+    background: lightblue;
+    padding: 4px;
+    color: black;
+}
+
+li a {
+    text-decoration: none;
+    color: unset;
+}
+
+li.nivchar {
+    background: lightslategray;
+    color: white;
+}

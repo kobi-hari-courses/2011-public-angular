@@ -1,0 +1,14 @@
+<marquee>This is a very long text with some moving items and it is really annoying</marquee>
+
+<sh-title-presenter caption="welcome to router" color="magenta"></sh-title-presenter>
+
+
+<ul>
+  <li routerLinkActive="nivchar"><a routerLink="a">Page A</a></li>
+  <li routerLinkActive="nivchar"><a routerLink="b">Page B</a></li>
+  <li routerLinkActive="nivchar"><a routerLink="c">Page C</a></li>
+</ul>
+
+<router-outlet></router-outlet>
+
+<input type="text" #goto (input)="onGoto(goto.value)">
